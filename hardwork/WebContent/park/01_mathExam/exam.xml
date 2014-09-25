@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+	<quiz>
+		<number1>33</number1>
+		<sign>*</sign>
+		<number2>3</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>4</number1>
+		<sign>+</sign>
+		<number2>45</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>99</number1>
+		<sign>/</sign>
+		<number2>5</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>45</number1>
+		<sign>/</sign>
+		<number2>34</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>37</number1>
+		<sign>*</sign>
+		<number2>34</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>22</number1>
+		<sign>-</sign>
+		<number2>56</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>77</number1>
+		<sign>+</sign>
+		<number2>33</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>11</number1>
+		<sign>+</sign>
+		<number2>2</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>4</number1>
+		<sign>*</sign>
+		<number2>5</number2>
+	</quiz>
+	
+	<quiz>
+		<number1>55</number1>
+		<sign>*</sign>
+		<number2>5</number2>
+	</quiz>
+</exam>

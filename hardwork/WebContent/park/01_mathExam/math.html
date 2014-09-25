@@ -1,10 +1,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-	<title>math exam!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>math exam!</title>
+<script type="text/javascript" src="math.js"></script>
 </head>
 <body>
-
+	<form>
+		<div>
+			<input type="button" value="Exam Load" onclick="startExam()"/>
+			<br/>
+			<span>
+				<input id="su1" type="text"/>
+				<input id="buho" type="text"/>
+				<input id="su2" type="text"/>
+				=
+				<input type="text" id="result"/>
+			</span>
+			<br/>
+			<input id="result" type="button" value="ok" onclick="resultExam()"/>
+			<br/>
+			<div id=showResult></div>
+		</div>
+	</form>
 </body>
 </html>
