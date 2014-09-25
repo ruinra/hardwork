@@ -75,16 +75,15 @@ function showQuiz(){
 	document.getElementById("su1").value=arr[0];
 	document.getElementById("buho").value=arr[1];
 	document.getElementById("su2").value=arr[2];
-	document.getElementById("result").value="";
+	document.getElementById("finalResult").value="";
 }
 
 function resultExam(){
-	var inputResult=document.getElementById("result");
+	var inputResult=document.getElementById("finalResult").value;
 	//alert(inputResult);
 	var su1=parseInt(document.getElementById("su1").value);
 	var buho=document.getElementById("buho").value;
 	var su2=parseInt(document.getElementById("su2").value);
-	var result=document.getElementById("result").value;
 	var examResult=0;
 	
 	if(buho=="+"){
@@ -98,7 +97,7 @@ function resultExam(){
 	}
 	
 	
-	if(examResult == result){
+	if(examResult == inputResult){
 		count++
 	}
 	//alert(count);
