@@ -3,8 +3,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 	<title>math exam!</title>
+	<script type="text/javascript" src="math.js"></script>
 </head>
 <body>
-
+	<form>
+		<input type="button" name="load" value="Exam Load" onclick="examLoad()"/>
+		<br/>
+		<div>
+			<input type="text" name="num1" id="num1"/>
+			<input type="text" name="oper" id="oper"/>
+			<input type="text" name="num2" id="num2"/>
+			=
+			<input type="text" name="result" id="result"/>		
+		</div>
+		<input type="button" name="ok" value="OK" onclick="clickOK()"/>		
+	</form>
+	<span>결과</span>
+	<div id="resultCount"></div>
 </body>
 </html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+	<q>
+		<num1>22</num1>
+		<num2>11</num2>
+		<oper>+</oper>
+	</q>
+	
+	<q>
+		<num1>30</num1>
+		<num2>15</num2>
+		<oper>-</oper>
+	</q>
+	
+	<q>
+		<num1>4</num1>
+		<num2>20</num2>
+		<oper>*</oper>
+	</q>
+	
+	<q>
+		<num1>30</num1>
+		<num2>5</num2>
+		<oper>/</oper>
+	</q>
+	
+	<q>
+		<num1>33</num1>
+		<num2>22</num2>
+		<oper>+</oper>
+	</q>
+	
+	<q>
+		<num1>67</num1>
+		<num2>59</num2>
+		<oper>-</oper>
+	</q>
+	
+	<q>
+		<num1>98</num1>
+		<num2>11</num2>
+		<oper>+</oper>
+	</q>
+	
+	<q>
+		<num1>33</num1>
+		<num2>3</num2>
+		<oper>*</oper>
+	</q>
+	
+	<q>
+		<num1>2</num1>
+		<num2>1</num2>
+		<oper>+</oper>
+	</q>
+	
+	<q>
+		<num1>88</num1>
+		<num2>8</num2>
+		<oper>/</oper>
+	</q>
+</exam>

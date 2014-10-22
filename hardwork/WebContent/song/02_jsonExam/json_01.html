@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<title>Insert title here</title>
+</head>
+<body>
+	<h2>JSON Object Creation in JavaScript</h2>
+	
+	<p id="demo"></p>
+	
+	<script>
+	var text = '{"name":"John Johnson","street":"Oslo West 16","phone":"555 1234567"}'
+	
+	var obj = JSON.parse(text);
+	
+	document.getElementById("demo").innerHTML =
+	obj.name + "<br>" +
+	obj.street + "<br>" +
+	obj.phone;
+</script>
+</body>
+</html>
