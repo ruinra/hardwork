@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quiz>
+	<Question>
+		<num1>3</num1>
+		<boo>+</boo>
+		<num2>9</num2>
+	</Question>
+
+	<Question>
+		<num1>50</num1>
+		<boo>/</boo>
+		<num2>2</num2>
+	</Question>
+	
+	<Question>
+		<num1>45</num1>
+		<boo>-</boo>
+		<num2>16</num2>
+	</Question>
+	
+	<Question>
+		<num1>16</num1>
+		<boo>*</boo>
+		<num2>2</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>32</num1>
+		<boo>/</boo>
+		<num2>8</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>4</num1>
+		<boo>+</boo>
+		<num2>37</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>52</num1>
+		<boo>-</boo>
+		<num2>16</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>64</num1>
+		<boo>/</boo>
+		<num2>8</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>7</num1>
+		<boo>+</boo>
+		<num2>3</num2>
+	</Question>
+	
+	
+	<Question>
+		<num1>6</num1>
+		<boo>+</boo>
+		<num2>32</num2>
+	</Question>
+</Quiz>

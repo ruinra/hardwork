@@ -3,8 +3,49 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 	<title>math exam!</title>
+	<style type="text/css">
+		body{
+			font-family:맑은 고딕; 
+			text-align:center;
+		}
+	</style>
+	<script type="text/javascript" src="math.js"></script>
+	<script type="text/javascript">
+		function resultClick(){
+			//input1, input2, boo 값
+			var num1=document.getElementById("num1").value;
+			var num2=document.getElementById("num2").value;
+			var boo=document.getElementById("boo").value;
+			var input=document.getElementById("input").value;
+			
+			var y=new Younsan(num1, num2, boo, input);
+			y.calculation();
+			y.disp();
+		}
+	</script>
 </head>
 <body>
+	<form>
+		<input id="send" type="button" value="시작!" onclick="startRequest()"/><br/>
 
+		<input type="text" name="num1" id="num1" size="5"/>
+		<input type="text" name="boo" id="boo" size="3"/>
+		<input type="text" name="num2" id="num2" size="5"/>
+		<br/><br/>
+		
+		<span>답 : </span>
+		<input type="text" name="input" id="input"/><br/>
+
+		<input type="button" value="다음" onclick="resultClick()"/>
+		<input type="reset" value="취소"/>
+		<br/><br/>
+	</form>
+	
+	<div style="font-size:17px; font-family:맑은 고딕;">
+		<span><퀴즈 결과></span><br/>
+		<span style="font-size:">문제 : </span>
+		<span id="count"></span><br/>
+		<span id="result"></span>
+	</div>
 </body>
 </html>
